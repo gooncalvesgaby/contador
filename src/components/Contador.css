@@ -1,3 +1,33 @@
-h1 {
-    color:red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.contador {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 20vh;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 10%;
+}
+
+h1 {
+    color: rgb(196, 196, 196);
+    font-size: 50px;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+button {
+    border: solid 1px rgb(196, 196, 196);;
+    border-radius: 10px;
+    width: 7vw;
+    height: 7vh;
+    margin: 5px;
+    cursor: pointer;    
+}
+
+
