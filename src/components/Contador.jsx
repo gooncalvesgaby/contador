@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import "./Contador.css"
 
-
 function Contador(){
 
     const [numero, setNumero] = useState(0)
@@ -25,8 +24,7 @@ function Contador(){
                     <button className="btns" onClick={Adicionar}>+</button>
                     <button className="btns" onClick={Diminuir}>-</button>
                     <button className="btns" onClick={Zerar}>zerar</button>
-                </div>
-                
+                </div>               
             </section>
             <h1>{numero}</h1>      
         </div>
